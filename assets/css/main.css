@@ -1,0 +1,26 @@
+header {
+    background-color: #0b1f3a;
+    color: white;
+    padding: 15px 0;
+}
+
+.contenedor-nav {
+    max-width: 1000px;
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none; 
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 35px;
+    font-style: initial;
+}
+
+nav a:hover {
+    color: gold;
+}
