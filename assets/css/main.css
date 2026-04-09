@@ -8,3 +8,28 @@ body {
     margin: auto;
     
 }
+
+.navbar-brand img { /* Me costo, pero esto me mueve solo el logo hacia la izquierda */
+    transform: translateX(-140px);
+}
+
+.logo img{
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+.nav-link {
+    color: white; /* color de la letra*/
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.navbar-nav {
+    gap: 150px;
+    align-items: center;
+    font-family: 'Michroma', sans-serif;
+    justify-content: space-between;
+}
+
