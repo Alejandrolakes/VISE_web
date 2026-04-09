@@ -1,40 +1,10 @@
-header {
-    background-color: #0b1f3a;
-    color: white;
-    padding: 15px 0;
+body {
+    background-color: black; /* Color de fondo */ 
+    color: white; /* color de texto */
 }
-
-.contenedor-nav {
-    max-width: 1000px;
-    margin: auto; 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav a {
-    color: white;
-    text-decoration: none; 
-    margin-left: 20px;
-    font-weight: bold;
-    font-size: 35px;
-}
-
-nav a:hover {
-    color: gold;
-}
-
-.card {
-    width: 250px; 
-    padding: 20px;
-    background-color: #1e293b;
-    color: white;
-    border-radius: 15px;
-
-    box-shadow: 0 10px 20px rgba(0, 0, 0,0.3);
-}
-
-#servicios {
-    padding: 80px 40px;
-    background-color: #0f172a;
+/* contenedor */
+.nav-container {
+    max-width: 1400px; /* ancho maximo*/
+    margin: auto;
+    
 }
