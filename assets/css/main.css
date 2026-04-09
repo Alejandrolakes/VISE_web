@@ -18,9 +18,23 @@ nav a {
     margin-left: 20px;
     font-weight: bold;
     font-size: 35px;
-    font-style: initial;
 }
 
 nav a:hover {
     color: gold;
+}
+
+.card {
+    width: 250px; 
+    padding: 20px;
+    background-color: #1e293b;
+    color: white;
+    border-radius: 15px;
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0,0.3);
+}
+
+#servicios {
+    padding: 80px 40px;
+    background-color: #0f172a;
 }
