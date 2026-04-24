@@ -1,7 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: #000;
     color: white;
     font-family: "Michroma", sans-serif;
+    padding-top:  120px;
 }
 
 /* NAVBAR */
@@ -10,7 +14,6 @@ body {
     padding: 18px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     gap: 50px;
-
     position: fixed;
     top: 0;
     left: 0;
@@ -94,10 +97,10 @@ body {
     margin-bottom: 20px;
     line-height: 1.2;
     color: white;
+    
 }
 
 .hero-content p {
-    font-family: "Michroma", sans-serif;
     font-size: 1.1rem;
     margin-bottom: 30px;
     color: #f1f1f1;
@@ -120,6 +123,8 @@ body {
     justify-content: center;
     background: linear-gradient(to right, #000000, #070707);
     border-left: none;
+    scroll-margin-top: 140px;
+    
 }
 
 .hero-right h2 {
@@ -127,15 +132,59 @@ body {
     font-size: 2rem;
     margin-bottom: 30px;
     letter-spacing: 2px;
+    letter-spacing: 60px;
+
 }
 
 .hero-right p {
-    font-family: Arial, sans-serif;
     color: #dddddd;
     font-size: 1.05rem;
     line-height: 1.8;
     margin-bottom: 18px;
 }
+
+.servicios-section {
+    background-color: #000;
+    padding: 120px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+.servicios-section .container {
+    max-width: 1000px;
+}
+
+.servicios-section h2 {
+    color: #d4af37;
+    font-size: 2.5rem;
+    letter-spacing: 60px;
+    margin-bottom: 45px;
+
+}
+
+.lista-servicios {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Michroma", sans-serif;
+}
+
+.lista-servicios li {
+    color: #dddddd;
+    font-size: 1.05rem;
+    line-height: 0;
+    padding: 20px 0 20px 42px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    position: relative;
+}
+
+.lista-servicios li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #d4af37;
+    font-weight: bold;
+}
+
 
 /* RESPONSIVE */
 @media (max-width: 992px) {
@@ -200,5 +249,18 @@ body {
 
     .hero-right p {
         font-size: 0.95rem;
+    }
+
+    .servicios-section {
+        padding: 80px 0;
+    }
+
+    .servicios-section h2 {
+        font-size: 1.6rem;
+    }
+
+    .lista-servicios li {
+        font-size: 0.95rem;
+        padding-left: 28px;
     }
 }
