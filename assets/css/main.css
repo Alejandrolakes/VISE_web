@@ -201,6 +201,39 @@ body {
 
 }
 
+/* Seccion del formuario*/
+.contacto-section input {
+    width: 100%;
+    padding: 12px;
+    background-color: #111111 ;
+    color: #dddddd;
+    border: 1px solid rgba(212, 175, 55, 0.4);
+    border-radius: 9px;
+}
+.contacto-section button {
+    width: 100%; 
+    padding: 12px;
+    background-color: #d4af37;
+    color: #000;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+/* Seccion del mensaje*/
+.contacto-section textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #111111 ;
+    color: #dddddd;
+    border: 1px solid rgba(212, 175, 55, 0.4);
+    border-radius: 9px;
+}
+
+.contacto-section form {
+    max-width: 500px;
+    align-items: center;
+}
+
 /* RESPONSIVE */
 @media (max-width: 992px) {
     .hero-content h1 {
