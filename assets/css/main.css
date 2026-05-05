@@ -224,6 +224,10 @@ body {
     border: 1px solid rgba(212, 175, 55, 0.4);
     border-radius: 9px;
 }
+
+.honeypot {
+    display: none;
+}
 .contacto-section button {
     width: 100%; 
     padding: 12px;
@@ -250,6 +254,14 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+#mensaje-exito {
+    display: none;
+    color: #d4af37;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
 }
 
 .footer {

@@ -114,13 +114,17 @@
     <section class="contacto-section" id="contacto"> 
         <h2>Contacto</h2>
 
-        <form>
-            <input type="text" placeholder="Nombre y Apellido">
-            <input type="text" placeholder="Empresa">
-            <input type="email" placeholder="Correo">
-            <textarea placeholder="Mensaje"></textarea>
-            <button type="submit">Enviar</button>
+        <form action="https://formspree.io/f/mpqbrpay" method="POST" id="formulario-contacto">
+            
+            <input class="honeypot" type="text" name="honeypot" tabindex="-1" autocomplete="off">
+            <input type="text" name="nombre" placeholder="Nombre y Apellido">
+            <input type="text" name="empresa" placeholder="Empresa">
+            <input type="tel" name="telefono" pattern="[0-9]{9}" maxlength="9" placeholder="Teléfono">
+            <input type="email" name="correo" placeholder="Correo">
+            <textarea name="mensaje" placeholder="Mensaje"></textarea>
+            <button type="submit" id="btn-enviar">Enviar</button>
         </form>
+        <div id="mensaje-exito">Gracias! Pronto nos contactamos</div>
             
     </section>
 
@@ -140,6 +144,6 @@
             mirror: true
         });
         </script>
-
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
