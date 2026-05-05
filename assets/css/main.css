@@ -157,6 +157,7 @@ body {
     font-size: 2.5rem;
     letter-spacing: 60px;
     margin-bottom: 45px;
+    text-align: center;
 
 }
 
@@ -198,7 +199,7 @@ body {
     font-size: 2.5rem;
     letter-spacing: 60px;
     margin-bottom: 45px;
-
+    text-align: center;
 }
 
 /* Seccion del formuario*/
@@ -232,6 +233,7 @@ body {
 .contacto-section form {
     max-width: 500px;
     align-items: center;
+    margin: 0 auto
 }
 
 /* RESPONSIVE */
