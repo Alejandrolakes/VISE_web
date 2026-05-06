@@ -259,6 +259,19 @@ body {
     gap: 15px;
 }
 
+.contacto-columnas {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contacto-columnas iframe {
+    width: 50%;
+    border-radius: 10px;
+}
+
 #mensaje-exito {
     display: none;
     color: #d4af37;
