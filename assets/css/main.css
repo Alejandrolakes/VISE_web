@@ -97,7 +97,7 @@ body {
     margin-bottom: 20px;
     line-height: 1.2;
     color: white;
-    
+    text-shadow: 0 0 20px rgba(212, 175, 55, 0.8);
 }
 
 .hero-content p {
@@ -132,6 +132,7 @@ body {
     font-size: 2rem;
     margin-bottom: 30px;
     letter-spacing: 4px;
+    text-shadow: 0 0 20px rgba(212, 175, 55, 0.8);
 
 }
 
@@ -169,7 +170,8 @@ body {
     letter-spacing: 4px;
     margin-bottom: 45px;
     text-align: center; 
-
+    margin-top: auto;
+    text-shadow: 0 0 20px rgba(212, 175, 55, 0.8);
 }
 
 .lista-servicios {
@@ -213,6 +215,7 @@ body {
     letter-spacing: 10px;
     margin-bottom: 45px;
     text-align: center;
+    text-shadow: 0 0 20px rgba(212, 175, 55, 0.8);
 }
 
 /* Seccion del formuario*/
@@ -267,6 +270,10 @@ body {
 .footer {
     text-align: right;
     padding: 30px;
+}
+
+.footer a{
+    color: #dddddd;
 }
 
 /* RESPONSIVE */
