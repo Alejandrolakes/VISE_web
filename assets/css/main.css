@@ -20,7 +20,19 @@ body {
     width: 100%;
     z-index: 999;
 }
+/* Link acceso app en navbar */
+.nav-link-app {
+    color: #d4af37 !important;
+    border: 1px solid rgba(212, 175, 55, 0.4);
+    border-radius: 6px;
+    padding: 6px 14px !important;
+    transition: background 0.3s ease;
+}
 
+.nav-link-app:hover {
+    background-color: rgba(212, 175, 55, 0.15);
+    color: #f0cc55 !important;
+}
 .navbar-brand img {
     width: 130px;
     transition: transform 0.3s ease;
